@@ -1,4 +1,5 @@
 .lancedb/
+docker_copia.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
