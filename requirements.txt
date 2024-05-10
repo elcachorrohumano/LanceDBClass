@@ -1,0 +1,10 @@
+# Python version specifier
+python==3.12.3
+
+# Libraries
+pyarrow==15.0.2
+pandas==2.2.1
+ipykernel==6.29.3
+lancedb==0.6.12
+datasets==2.19.1
+transformers==4.40.2
