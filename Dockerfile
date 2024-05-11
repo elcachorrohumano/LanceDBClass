@@ -13,6 +13,7 @@ EXPOSE 8888
 
 # Copy the Jupyter notebook file into the container
 COPY class.ipynb .
+COPY tarea.ipynb .
 
 # Start Jupyter notebook when the container launches
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
